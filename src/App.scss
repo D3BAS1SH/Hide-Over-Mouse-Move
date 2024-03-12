@@ -24,5 +24,11 @@
     }
     .mask{
         position: absolute;
+        mask-image: url('/Mask.svg');
+        background-color: #ec4e39;
+        mask-repeat: no-repeat;
+        mask-position: 50%;
+        mask-size: 500px;
+        color: #000;
     }
 }
