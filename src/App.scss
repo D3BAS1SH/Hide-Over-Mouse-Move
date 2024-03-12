@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    .body,.mask{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #afa18f;
+        font-size: 64px;
+        line-height: 66px;
+        cursor: default;
+    }
+    span{
+        color: #ec4e39;
+    }
+    p{
+        width: 1000px;
+    }
+    .mask{
+        position: absolute;
+    }
+}
