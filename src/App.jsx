@@ -1,6 +1,7 @@
 import './App.scss'
-
+import useMousePosition from './useMousePosition'
 function App() {
+  const {x,y}=useMousePosition;
   return (
     <main className='main'>
       <div className="mask">
